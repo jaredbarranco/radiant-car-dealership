@@ -1,0 +1,54 @@
+openapi: 3.0.3
+info:
+  title: Radiant Car Dealership - OpenAPI 3.0
+  description: |-
+    Some useful links:
+    - [The Car Dealership Interview repository](https://github.com/jaredbarranco/rgl-integrations-interview)
+  contact:
+    email: dev@radiantcars.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.11
+tags:
+  - name: cars
+    description: Operations about cars
+paths:
+  /cars:
+    post:
+      summary: Add a new car entry to the database
+      tags: 
+        - cars
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/car'
+      responses:
+        '201':
+          description: Created
+        '400':
+          description: Bad Request
+        '500':
+          description: Internal Server Error
+components:
+  schemas:
+    car:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        Model:
+          type: string
+          maxLength: 50
+        Color:
+          type: string
+          maxLength: 50
+        TotalCost:
+          type: integer
+      required:
+        - Model
+        - Color
+        - TotalCost
