@@ -12,7 +12,7 @@ The customer's goal is to have better control over the prices that their custome
 See either ./1_carDealershipQuestion.sql or https://sqlize.online/s/XR for an online playground version.
 
 
-When complete, copy/paste your updates to the bottom of 1_carDealershipQuestion.sql and save the file.
+When complete, copy/paste your updates to the bottom of 1_carDealershipQuestion.sql and save the file. Commit your changes.
 
 ### Project 2 - Schema and API
 The customer's website needs to be enhanced to display the number of vehicles in stock. A current version of their API Specification Document is located at ./2_radiantCarDealers-API.yml.
@@ -26,7 +26,7 @@ Please edit the current API definition to add a /cars/inventory endpoint. The en
     4. At minimum, return a 500 error
 
 
-When complete, copy/paste your updates to the bottom of 2_radiantCarDealers-API.yml and save the file.
+When complete, copy/paste your updates to the bottom of 2_radiantCarDealers-API.yml and save the file. Commit your changes.
 
 ### Project 3 - Submit to Code Review
 In Git or Github Desktop, submit a Pull Request to the repository with your changes. Both the Pull Request Title and Description can be your name.
