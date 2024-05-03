@@ -7,9 +7,8 @@ You are a developer hired by Radiant Car Dealers to manage an ERP system that en
 You may use any resources available on your laptop, please just share your screen so the interviewer can follow along with your process.
 
 ## Project Setup
-    1. Create a new folder on your computer called `radiant-car-dealership`
-    2. Create a new git repo in this directory
-    3. Download or import the resources from the url: ``
+    1. Fork this repository to your own. You should fork to contribute to the main project.
+    2. Clone this repository down to your system, and begin the projects below.
 
 ### Project 1 - SQL
 The customer's goal is to have better control over the prices that their customers see on their website. The dealership pays for cars at a wholesale price, and then adds a markup to those prices to calculate the sticker price of the vehicle. The dealership also needs to know how many of each vehicle they have on-hand so they don't oversell or backorder cars.
